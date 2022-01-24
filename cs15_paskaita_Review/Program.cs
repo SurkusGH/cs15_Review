@@ -6,7 +6,7 @@ namespace cs15_paskaita_Review
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("cs15_PASKAITA_Review");
         }
     }
 }
