@@ -85,17 +85,16 @@ namespace cs15_paskaita_Review
             showList.AddTVShow(show5);
             showList.PrintProgramme();
             Console.WriteLine("---");
+
             //M         Remove TV Show by Name
-            showList.RemoveTVShowByName("101");
+            showList.RemoveTVShowByName("101"); // <-- triname pirmą1
             showList.PrintProgramme();
             Console.WriteLine("---");
 
             //M         Remove TV Show by Id
-            showList.RemoveTVShowByID(show5.ID);
+            showList.RemoveTVShowByID(show5.ID); // <-- <-- triname paskutinį
             showList.PrintProgramme();
             Console.WriteLine("---");
-            //M         Print Programme
-            //showList.PrintProgramme();
 
             //M         Clear Programme
             showList.ClearProgramme();
