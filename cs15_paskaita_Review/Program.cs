@@ -8,6 +8,7 @@ namespace cs15_paskaita_Review
         static void Main(string[] args)
         {
             Console.WriteLine("cs15_PASKAITA_Review");
+
             #region Review
 
             // Klasė gali turėti tuščią konstruktorių
@@ -76,6 +77,7 @@ namespace cs15_paskaita_Review
             //M         Add TV show
 
             var showList = new TV_Programme();
+            
             showList.AddTVShow(show1);
             showList.AddTVShow(show2);
             showList.AddTVShow(show3);
